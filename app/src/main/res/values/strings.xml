@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Diploma2</string>
+    <string name="text_empty_trip">You don\'t have a planned trip :(</string>
+    <string name="btn_start">Start</string>
+    <string name="btn_route">Route</string>
+    <string name="btn_cities">Cities</string>
+    <string name="btn_hotels">Hotels</string>
+    <string name="btn_find_tickets">Find tickets</string>
+    <string name="text_enter_the_name">Enter name of the trip:</string>
+    <string name="text_enter_the_start">Enter start date of your trip:</string>
+    <string name="text_enter_the_end">Enter end date of your trip:</string>
+    <string name="warning_about_dates">If you don\'t know your trip dates, you can enter them later</string>
+    <string name="title_activity_route">Route</string>
+    <string name="date_of_depart">Date:</string>
+    <string name="date_of_arrival">Date:</string>
+    <string name="time_of_depart">Time of departure:</string>
+    <string name="time_of_arrival">Time of arrival:</string>
+    <string name="text_enter_the_city1">Departure city</string>
+    <string name="text_enter_the_city2">Arrival city</string>
+    <string name="text_enter_the_date1_and_time1">Enter departure date and time</string>
+    <string name="text_enter_the_date2_and_time2">Enter arrival date and time</string>
+    <string name="text_enter_the_place1">Enter departure place</string>
+    <string name="text_enter_the_place2">Enter arrival place</string>
+    <string name="btn_save">Save</string>
+    <string name="delete_record">Delete record</string>
+    <string name="date">Date:</string>
+    <string name="time">Time:</string>
+    <string name="create_your_route">Create your route right here</string>
+    <string name="text_date1_and_time1">Departure date and time</string>
+    <string name="text_date2_and_time2">Arrival date and time</string>
+    <string name="text_place1">Departure place</string>
+    <string name="text_place2">Arrival place</string>
+    <string name="btn_save_changes">Save changes</string>
+    <string name="notes">Notes</string>
+    <string name="write_smth">Write something</string>
+    <string name="fill_out_the_route">Firstly fill out the route</string>
+    <string name="btn_map">Map</string>
+    <string name="look_at_map">Look at map</string>
+    <string name="find_hotel">Find hotel</string>
+    <string name="tours">Tours</string>
+    <string name="attractions">Attractions</string>
+    <string name="delete">Delete</string>
+    <string name="days">Days:</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="departure_date">Departure date:</string>
+    <string name="return_date">Return date:</string>
+    <string name="passengers">Passengers:</string>
+
+
+
+
+</resources>
+

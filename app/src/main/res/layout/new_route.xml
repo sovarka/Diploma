@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backgroundrock1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_enter_the_city1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="@string/text_enter_the_city1" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoEditCity1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorWhite"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- '"
+        android:text=""/>
+
+
+    <TextView
+        android:id="@+id/text_enter_the_date1_and_time1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="@string/text_enter_the_date1_and_time1" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Date"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:paddingLeft="5dp"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/edit_time1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Time"
+            android:paddingLeft="5dp"
+            android:textColor="@color/colorText"
+            android:textSize="18sp"
+            android:inputType="time" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_enter_the_place1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:padding="5dp"
+        android:text="@string/text_enter_the_place1" />
+
+    <EditText
+        android:id="@+id/edit_place1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:paddingBottom="5dp"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:inputType="textCapSentences"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -',.0123456789/#№"
+        android:text="" />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/text_enter_the_city2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="5dp"
+        android:text="@string/text_enter_the_city2" />
+
+
+    <AutoCompleteTextView
+        android:id="@+id/autoEditCity2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textCapWords"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorWhite"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="5dp"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ- '"
+        android:text=""/>
+
+
+    <TextView
+        android:id="@+id/text_enter_the_date2_and_time2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:background="@color/colorWhite"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/text_enter_the_date2_and_time2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Date"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/edit_time2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:paddingLeft="5dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorText"
+            android:hint="Time"
+            android:inputType="time" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/text_enter_the_place2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:padding="5dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:text="@string/text_enter_the_place2" />
+
+    <EditText
+        android:id="@+id/edit_place2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@color/colorWhite"
+        android:textSize="18sp"
+        android:textColor="@color/colorText"
+        android:paddingBottom="5dp"
+        android:ems="10"
+        android:paddingLeft="5dp"
+        android:inputType="textCapSentences"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ -',.0123456789/#№"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btn_save_route"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@color/colorText"
+        android:textSize="18sp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorWhite"
+        android:text="@string/btn_save" />
+
+
+</LinearLayout>

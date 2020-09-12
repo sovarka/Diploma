@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@drawable/backgroundrock1"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text_enter_the_name"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite"
+        android:text="@string/text_enter_the_name"
+        android:textColor="@color/colorText"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edit_the_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:textSize="20sp"
+        android:background="@color/colorWhite"
+        android:hint="Name"
+        android:textColor="@color/colorText"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-/'"
+        android:ems="10"
+        android:inputType="textCapSentences" />
+
+
+    <TextView
+        android:id="@+id/text_enter_the_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:text="@string/text_enter_the_start"
+       />
+
+    <EditText
+        android:id="@+id/edit_the_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:enabled="false"
+        android:hint="Date"
+        android:inputType="date"
+        android:textColor="@color/colorText"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/text_enter_the_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="10dp"
+        android:background="@color/colorWhite"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"
+        android:text="@string/text_enter_the_end"
+        />
+
+    <EditText
+        android:id="@+id/edit_the_end"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@color/colorWhite"
+        android:ems="10"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:enabled="false"
+        android:hint="Date"
+        android:inputType="date"
+        android:textColor="@color/colorText"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/warning_about_dates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorText"
+        android:background="@color/colorWhite"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="5dp"
+
+        android:text="@string/warning_about_dates" />
+
+    <Button
+        android:id="@+id/btn_save_trip"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="70dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/colorWhite"
+        android:text="@string/btn_save"
+        android:textSize="18sp"
+        android:textColor="@color/colorText" />
+</LinearLayout>
